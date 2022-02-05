@@ -13,7 +13,7 @@ st.set_page_config(
     page_title="Cryptic Crusaders")
 
 st.title("Cryptic Crusaders")
-st.markdown("An NFT company specializing in provding unique and exclusive player icons and avatars, allowing you to stick out from the crowd whether you're gaming with frineds, live streaming, or even gaming professionally. Look out for #whydoboring on social media to keep up to date with our offering and promotions.")
+st.markdown("An NFT company specializing in providing unique and exclusive player icons and avatars, allowing you to stick out from the crowd whether you're gaming with friends, live streaming, or even gaming professionally. Look out for #whydoboring on social media to keep up to date with our latest offerings and promotions.")
 st.image("https://media.giphy.com/media/gM5rskUNwmHJ1DCiAX/giphy.gif")
 
 #add player gallery section
