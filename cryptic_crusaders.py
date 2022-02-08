@@ -7,7 +7,7 @@
 #from dotenv import load_dotenv
 import streamlit as st
 
-# add title
+# add title, description, and gif 
 
 st.set_page_config(
     page_title="Cryptic Crusaders")
@@ -26,10 +26,31 @@ with colCoinText:
 
 with colCoinImage:
     st.image("Images/coin.jpg") 
-#add player gallery section
-st.subheader("Gallery")
 
-st.image("Images/Icon_1.jpg", width=200)
-st.image("Images/Icon_2.jpg", width=200)
-st.image("Images/Icon_3.jpg", width=200)
+#create and display avatar_database
+
+avatar_database ={
+    "Ozhar": ["Ozhar the Observant Orc", .4, "Images/Icon_1.jpg"],
+    "Elna": ["Elna the Earnest Elf", .6, "Images/Icon_2.jpg"],
+    "Talman": ["Talman the Tactical Turtle", .5, "Images/Icon_3.jpg"]
+}
+
+avatars=["Ozhar","Elna","Talman"]
+
+def get_avatars():
+    """Display the database of Fintech Finders candidate information."""
+    db_list = list(avatar_database.values())
+
+    for number in range(len(avatars)):
+        st.image(db_list[number][2], width=200)
+        st.write("Avatar: ", db_list[number][0])
+        st.write("Price (ETH): ", db_list[number][1])
+        st.text(" \n")
+
+#add player gallery section
+#st.subheader("Gallery")
+
+#st.image("Images/Icon_1.jpg", width=200)
+#st.image("Images/Icon_2.jpg", width=200)
+#st.image("Images/Icon_3.jpg", width=200)
 
