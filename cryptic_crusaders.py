@@ -18,11 +18,11 @@ st.image("https://media.giphy.com/media/gM5rskUNwmHJ1DCiAX/giphy.gif")
 
 #ICO 
 
-st.subheader("Intial Coin Offering")
+st.subheader("Join the Crusade - Intial Coin Offering Coming Soon")
 colCoinText, colCoinImage = st.columns(2)
 
 with colCoinText:
-    st.markdown("Check out our ICO and get your CrusaderCoin (CRC) today! CRC will initially be offered at a price of $100 USD per coin and will be used for all your customization needs buy now and join gaming of the future today! For a listing of player icons currently available please see gallery below.") 
+    st.markdown("Follow #CRC on social media to keep up to date on all the latest news on our ICO (initial coin offering). Avatars will be available for purchase with ETH to start and will eventually be able to be purchased with or sold for ETH (Ethereum or CRC (Crusader Coin). Please see our gallery below for our initial launch of 3 exclusive avatars. Purchase now and join the future of gaming today!") 
 
 with colCoinImage:
     st.image("Images/coin.jpg") 
@@ -31,12 +31,13 @@ with colCoinImage:
 
 
 avatar_database ={
-    "Ozhar": ["Ozhar the Observant Orc", .4, "Images/Icon_1.jpg"],
     "Elna": ["Elna the Elven Warrior", .6, "Images/Icon_2.jpg"],
-    "Talman": ["Talman the Tactical Turtle", .5, "Images/Icon_3.jpg"]
+    "Talman": ["Talman the Tactical Turtle", .5, "Images/Icon_3.jpg"],
+    "Ozhar": ["Ozhar the Observant Orc", .4, "Images/Icon_1.jpg"],
+    
 }
 
-avatars=["Ozhar","Elna","Talman"]
+avatars=["Elna","Talman", "Ozhar"]
 
 def get_avatars():
     """Display the database of Fintech Finders candidate information."""
@@ -44,11 +45,11 @@ def get_avatars():
 
     for number in range(len(avatars)):
         st.image(db_list[number][2], width=200)
-        st.write(db_list[number][0])
+        st.subheader(db_list[number][0])
         st.write("Price (ETH): ", db_list[number][1])
         st.text(" \n")
 
-st.subheader("Avatar Gallery")
+st.header("Avatar Gallery")
 
 get_avatars()
 
