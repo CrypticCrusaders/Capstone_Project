@@ -22,7 +22,7 @@ st.subheader("Join the Crusade - Intial Coin Offering Coming Soon")
 colCoinText, colCoinImage = st.columns(2)
 
 with colCoinText:
-    st.markdown("Follow #CRC on social media to keep up to date on all the latest news on our ICO (initial coin offering). Avatars will be available for purchase with ETH to start and will eventually be able to be purchased with or sold for ETH (Ethereum or CRC (Crusader Coin). Please see our gallery below for our initial launch of 3 exclusive avatars. Purchase now and join the future of gaming today!") 
+    st.markdown("Follow #jointhecrusade on social media to keep up to date on all the latest news on our ICO (initial coin offering). Avatars will be available for purchase with ETH (Ethereum) to start and will eventually be able to be purchased with or sold for ETH or CRC (Crusader Coin). Please see our gallery below for our initial launch of 3 exclusive avatars. Purchase now and join the future of gaming today!") 
 
 with colCoinImage:
     st.image("Images/coin.jpg") 
