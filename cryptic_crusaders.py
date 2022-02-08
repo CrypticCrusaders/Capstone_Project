@@ -25,7 +25,7 @@ with colCoinText:
     st.markdown("Follow #jointhecrusade on social media to keep up to date on all the latest news on our ICO (initial coin offering). Avatars will be available for purchase with ETH (Ethereum) to start and will eventually be able to be purchased with or sold for ETH or CRC (Crusader Coin). Please see our gallery below for our initial launch of 3 exclusive avatars. Purchase now and join the future of gaming today!") 
 
 with colCoinImage:
-    st.image("Images/coin.jpg") 
+    st.image("https://media.giphy.com/media/B18C1CKdzpYsMcqsyL/giphy.gif") 
 
 #create and display avatar_database
 
