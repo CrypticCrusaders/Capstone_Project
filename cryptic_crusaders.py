@@ -44,7 +44,7 @@ def get_avatars():
 
     for number in range(len(avatars)):
         st.image(db_list[number][2], width=200)
-        st.write("Avatar: ", db_list[number][0])
+        st.write(db_list[number][0])
         st.write("Price (ETH): ", db_list[number][1])
         st.text(" \n")
 
