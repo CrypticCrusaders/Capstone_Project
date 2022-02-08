@@ -47,6 +47,8 @@ def get_avatars():
         st.write("Price (ETH): ", db_list[number][1])
         st.text(" \n")
 
+get_avatars()
+
 #add player gallery section
 #st.subheader("Gallery")
 
