@@ -29,9 +29,10 @@ with colCoinImage:
 
 #create and display avatar_database
 
+
 avatar_database ={
     "Ozhar": ["Ozhar the Observant Orc", .4, "Images/Icon_1.jpg"],
-    "Elna": ["Elna the Earnest Elf", .6, "Images/Icon_2.jpg"],
+    "Elna": ["Elna the Elven Warrior", .6, "Images/Icon_2.jpg"],
     "Talman": ["Talman the Tactical Turtle", .5, "Images/Icon_3.jpg"]
 }
 
@@ -47,12 +48,8 @@ def get_avatars():
         st.write("Price (ETH): ", db_list[number][1])
         st.text(" \n")
 
+st.subheader("Avatar Gallery")
+
 get_avatars()
 
-#add player gallery section
-#st.subheader("Gallery")
-
-#st.image("Images/Icon_1.jpg", width=200)
-#st.image("Images/Icon_2.jpg", width=200)
-#st.image("Images/Icon_3.jpg", width=200)
 
