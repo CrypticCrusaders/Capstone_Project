@@ -33,11 +33,12 @@ with colCoinImage:
 avatar_database ={
     "Elna": ["Elna the Elven Warrior", .6, "Images/Icon_2.jpg"],
     "Talman": ["Talman the Tactical Turtle", .5, "Images/Icon_3.jpg"],
-    "Ozhar": ["Ozhar the Observant Orc", .4, "Images/Icon_1.jpg"],
+    "Dave": ["Dave the Devout Deity", 0.5, "Images/Icon_4.jpg"],
+    "Ozhar": ["Ozhar the Omnipotent Orc", .4, "Images/Icon_1.jpg"]
     
 }
 
-avatars=["Elna","Talman", "Ozhar"]
+avatars=["Elna","Talman", "Dave","Ozhar"]
 
 def get_avatars():
     """Display the database of Fintech Finders candidate information."""
