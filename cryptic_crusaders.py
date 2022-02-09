@@ -38,7 +38,7 @@ st.markdown('')
 avatar_database ={
     "Elna": ["Elna the Elven Warrior", "Images/Icon_2.jpg", " Elna has left her place in the royal family to join her comrades on the frontlines. She fights with unrivaled strength and grace to seamlessly defeat her enemies."],
     "Talman": ["Talman the Tactical Turtle", "Images/Icon_3.jpg", "Slow and steady wins the race, Talman uses his superior intellect to and tact to defeat his enemies with having to land a single blow."],
-    "Dave": ["Dave the Devout Deity", "Images/Icon_4.jpg", "Dave is known across the lands for his kind hearted, loyal nature as such he has amassed more followers than anyone thought possible. He continues to grow his army but stays true to himself and his ideals"],
+    "Dave": ["Dave the Devout Deity", "Images/Icon_4.jpg", "Dave is known across the lands for his kind hearted, loyal nature as such he has amassed more followers than anyone thought possible. He continues to grow his army but stays true to himself and his ideals."],
     "Ozhar": ["Ozhar the Omnipotent Orc", "Images/Icon_1.jpg","Ozhar is feared across the lands as he is all powerful but don’t let his rough exterior fool you in his heart he is simply trying to protect his land and his fellow Orcs. Don’t poke the sleeping bear and you might live to tell the tale! "]  
 
     
