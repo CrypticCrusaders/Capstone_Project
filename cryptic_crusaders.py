@@ -10,7 +10,7 @@ st.set_page_config(
 
 st.title("Cryptic Crusaders")
 st.markdown("Allow us to introduce ourselves -  we are the *Cryptic Crusaders!*")
-st.markdown("We’re an NFT company that specializes in creating unique avatars and skins exclusively for gamers.")
+st.markdown("We’re a start-up company that specializes in creating unique avatars and skins exclusively for gamers through the use NFTs and smar contracts.")
 st.markdown("Every great gamer has a cool online ID. So, whether you’re streaming, gaming professionally , or just playing with friends, a unique online identity is a necessity. That’s where we come in. Our specialty is creating kick*ss avatars so everyone remembers who you are when you’re live.")
 st.markdown("Let’s create your brand and make you stand out of the crowd.")
 st.markdown("We collaborate with gaming companies in providing a catalog of personalized avatars for their games.")
@@ -37,7 +37,7 @@ st.markdown('')
 
 avatar_database ={
     "Elna": ["Elna the Elven Warrior", "Images/Icon_2.jpg", " Elna has left her place in the royal family to join her comrades on the frontlines. She fights with unrivaled strength and grace to seamlessly defeat her enemies."],
-    "Talman": ["Talman the Tactical Turtle", "Images/Icon_3.jpg", "Slow and steady wins the race, Talman uses his superior intellect and tact to defeat his enemies with having to land a single blow."],
+    "Talman": ["Talman the Tactical Turtle", "Images/Icon_3.jpg", "Slow and steady wins the race, Talman uses his superior intellect and tact to defeat his enemies without having to land a single blow."],
     "Dave": ["Dave the Devout Deity", "Images/Icon_4.jpg", "Dave is known across the lands for his kind hearted, loyal nature as such he has amassed more followers than anyone thought possible. He continues to grow his army but stays true to himself and his ideals."],
     "Ozhar": ["Ozhar the Omnipotent Orc", "Images/Icon_1.jpg","Ozhar is feared across the lands as he is all powerful but don’t let his rough exterior fool you in his heart he is simply trying to protect his land and his fellow Orcs. Don’t poke the sleeping bear and you might live to tell the tale! "]  
 
