@@ -10,7 +10,7 @@ st.set_page_config(
 
 st.title("Cryptic Crusaders")
 st.markdown("Allow us to introduce ourselves -  we are the *Cryptic Crusaders!*")
-st.markdown("We’re a start-up company that specializes in creating unique avatars and skins exclusively for gamers through the use NFTs and smar contracts.")
+st.markdown("We’re a start-up company that specializes in creating unique avatars and skins exclusively for gamers through the use NFTs and smart contracts.")
 st.markdown("Every great gamer has a cool online ID. So, whether you’re streaming, gaming professionally , or just playing with friends, a unique online identity is a necessity. That’s where we come in. Our specialty is creating kick*ss avatars so everyone remembers who you are when you’re live.")
 st.markdown("Let’s create your brand and make you stand out of the crowd.")
 st.markdown("We collaborate with gaming companies in providing a catalog of personalized avatars for their games.")
