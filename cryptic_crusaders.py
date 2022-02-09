@@ -19,7 +19,7 @@ st.image("https://media.giphy.com/media/gM5rskUNwmHJ1DCiAX/giphy.gif")
 
 #ICO 
 
-st.title("Join the Crusade - Intial Coin Offering Coming Soon")
+st.title("Join the Crusade - Initial Coin Offering Coming Soon")
 colCoinText, colCoinImage = st.columns(2)
 
 with colCoinText:
@@ -36,10 +36,10 @@ st.markdown('')
 
 
 avatar_database ={
-    "Elna": ["Elna the Elven Warrior", .6, "Images/Icon_2.jpg", " Elna has left her place in the royal family to join her comrades on the frontlines. She fights with unrivaled strength and grace to seamlessly defeat her enemies."],
-    "Talman": ["Talman the Tactical Turtle", .5, "Images/Icon_3.jpg", "Slow and steady wins the race, Talman uses his superior intellect to and tact to defeat his enemies with having to land a single blow."],
-    "Dave": ["Dave the Devout Deity", 0.5, "Images/Icon_4.jpg", "Dave is known across the lands for his kind hearted, loyal nature as such he has amassed more followers than anyone thought possible. He continues to grow his army but stays true to himself and his ideals"],
-    "Ozhar": ["Ozhar the Omnipotent Orc", .4, "Images/Icon_1.jpg","Ozhar is feared across the lands as he is all powerful but don’t let his rough exterior fool you in his heart he is simply trying to protect his land and his fellow Orcs. Don’t poke the sleeping bear and you might live to tell the tale! "]  
+    "Elna": ["Elna the Elven Warrior", "Images/Icon_2.jpg", " Elna has left her place in the royal family to join her comrades on the frontlines. She fights with unrivaled strength and grace to seamlessly defeat her enemies."],
+    "Talman": ["Talman the Tactical Turtle", "Images/Icon_3.jpg", "Slow and steady wins the race, Talman uses his superior intellect to and tact to defeat his enemies with having to land a single blow."],
+    "Dave": ["Dave the Devout Deity", "Images/Icon_4.jpg", "Dave is known across the lands for his kind hearted, loyal nature as such he has amassed more followers than anyone thought possible. He continues to grow his army but stays true to himself and his ideals"],
+    "Ozhar": ["Ozhar the Omnipotent Orc", "Images/Icon_1.jpg","Ozhar is feared across the lands as he is all powerful but don’t let his rough exterior fool you in his heart he is simply trying to protect his land and his fellow Orcs. Don’t poke the sleeping bear and you might live to tell the tale! "]  
 
     
 }
@@ -54,14 +54,13 @@ def get_avatars():
         colImage, colDescription = st.columns(2)
         
         with colImage:
-            st.image(db_list[number][2], width=200)
-            st.write("Price (ETH): ", db_list[number][1])
+            st.image(db_list[number][1], width=200)
             st.markdown('')
             
         
         with colDescription:
             st.subheader(db_list[number][0])
-            st.write(db_list[number][3])
+            st.write(db_list[number][2])
 
 st.header("Avatar Gallery")
 st.markdown('')
