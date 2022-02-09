@@ -12,8 +12,8 @@ st.title("Cryptic Crusaders")
 st.markdown("Allow us to introduce ourselves -  we are the *Cryptic Crusaders!*")
 st.markdown("We’re an NFT company that specializes in creating unique avatars and skins exclusively for gamers.")
 st.markdown("Every great gamer has a cool online ID. So, whether you’re streaming, gaming professionally , or just playing with friends, a unique online identity is a necessity. That’s where we come in. Our specialty is creating kick*ss avatars so everyone remembers who you are when you’re live.")
-st.markdown("We also collaborate with gaming companies in providing a catalog of personalized avatars for their games.")
 st.markdown("Let’s create your brand and make you stand out of the crowd.")
+st.markdown("We collaborate with gaming companies in providing a catalog of personalized avatars for their games.")
 st.markdown("Look out for #WhyDoBoring on social media to keep up to date with our latest offerings and promotions. ")
 st.image("https://media.giphy.com/media/gM5rskUNwmHJ1DCiAX/giphy.gif")
 
@@ -47,7 +47,7 @@ avatar_database ={
 avatars=["Elna","Talman", "Dave","Ozhar"]
 
 def get_avatars():
-    """Display the database of Fintech Finders candidate information."""
+    """Display the avatars name, picture, and description."""
     db_list = list(avatar_database.values())
 
     for number in range(len(avatars)):
